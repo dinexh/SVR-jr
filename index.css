@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.HeroPage{
+    height: 100vh;
+    width: 100%;
+}   
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.nav-in-one{
+    height: 10vh;
+    width: 30%;
+}
+.nav-in-two{
+    height: 10vh;
+    width: 70%;
+}
+footer{
+    height: 60vh;
+    width: 100%;
+    background-color:green;
+    color: black;
+}
+.footer-in-one{
+    height: 5vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.in-one-one{
+    width: 30%;
+}
+.in-one-two{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.footer-in-two{
+    height: 47vh;
+    width: 100%;
+}
+.in-two-one{
+    height: 47vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+button{
+    height: 5vh;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+.footer-in-three{
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-in-three{
+    height: 8vh;
+    width: 100%;
+}
